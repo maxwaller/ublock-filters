@@ -2,3 +2,5 @@ twitter.com##html:style(overflow-y: scroll !important)
 twitter.com##header > div > div:style(display: none !important)
 twitter.com###layers:style(display: none !important)
 twitter.com##div[aria-label="Trending"] > div > div:not(:first-child):style(display: none !important)
+# Hide youtube shorts
+youtube.com##[is-shorts]:style(display: none !important)
