@@ -4,3 +4,5 @@ twitter.com###layers:style(display: none !important)
 twitter.com##div[aria-label="Trending"] > div > div:not(:first-child):style(display: none !important)
 # Hide youtube shorts
 youtube.com##[is-shorts]:style(display: none !important)
+# Hide reddit junk
+reddit.com##.Comment > div:last-child > div:last-child:style(display: none !important)
