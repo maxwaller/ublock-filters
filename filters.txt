@@ -6,3 +6,6 @@ twitter.com##div[aria-label="Trending"] > div > div:not(:first-child):style(disp
 youtube.com##[is-shorts]:style(display: none !important)
 # Hide reddit junk
 reddit.com##.Comment > div:last-child > div:last-child:style(display: none !important)
+# Hide interest junk
+interest.co.nz##body:style(overflow: auto !important)
+interest.co.nz###block-presspatron-ad-block-banner:style(display: none !important)
