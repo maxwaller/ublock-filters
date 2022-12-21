@@ -10,3 +10,6 @@ reddit.com##.Comment > div:last-child > div:last-child:style(display: none !impo
 interest.co.nz##body:style(overflow: auto !important)
 interest.co.nz###block-presspatron-ad-block-banner:style(display: none !important)
 interest.co.nz##.black-overlay:style(display: none !important)
+# Hide stackoverflow junk
+stackoverflow.com##.js-consent-banner:style(display: none !important)
+stackoverflow.com##.js-dismissable-hero:style(display: none !important)
